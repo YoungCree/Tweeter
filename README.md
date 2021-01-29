@@ -5,7 +5,7 @@ Technologies used: Android Studio, Java, AWS: lambda, S3, DynamoDB, API Gateway,
  - API Gateway interacted with lambdas to run backend tasks (following users, fetching followers, etc...)
  - DynamoDB had the following tables: users, feed, story, authToken, follows
  - S3 was used to store user images
- - SQS was used in tambdem with lambdas to post a tweet and update the feed of 10,000+ users within 2 minutes
+ - SQS was used in tamdem with lambdas to post a tweet and update the feed of 10,000+ users within 2 minutes
  
 ### Screenshots
 
