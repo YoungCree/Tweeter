@@ -6,7 +6,7 @@ Technologies used: Android Studio, Java, AWS: lambda, S3, DynamoDB, API Gateway,
  - S3 was used to store user images
  - SQS was used in tambdem with lambdas to post a tweet and update the feed of 10,000+ users within 2 minutes
  
-Screenshots of the app:
+##Screenshots
 
 The Login Screen
 
