@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".view.main.feed.FeedFragment">
+
+    <ImageView
+        android:id="@+id/statusUserImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:contentDescription="@string/userImageContentDescription" />
+
+
+
+        <TextView
+            android:id="@+id/statusUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/statusUserImage"
+            android:layout_marginTop="5dp"
+            tools:text="The User" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/statusUserName"
+            android:layout_above="@+id/statusTimeStamp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="1dp"
+            android:id="@+id/statusUserAlias"
+            tools:text="\@UserAlias" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusTimeStamp"
+            android:layout_below="@+id/statusUserName"
+            android:layout_toEndOf="@+id/statusUserImage"
+            tools:text="TimeStamp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusStatusText"
+            android:layout_below="@+id/statusUserImage"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:maxLines="100"
+            android:textColorLink="@color/colorPrimary"
+            android:autoLink="web"
+            tools:text="Message Body..." />
+
+        <View
+            style="@style/Divider"
+            android:layout_below="@+id/statusStatusText" />
+
+
+</RelativeLayout>

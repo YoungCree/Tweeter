@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.LoginActivity">
+
+    <ImageView
+        android:id="@+id/twitterTitle"
+        android:transitionName="quillImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/ic_quillsvgwhite24"
+        android:padding="30dp"
+        android:background="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:layout_below="@+id/twitterTitle"
+        android:hint="@string/usernamePrompt" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/usernameEditText"
+        android:hint="@string/passwordPrompt" />
+
+    <TextView
+        android:id="@+id/signUpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/signUpPrompt" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="@string/loginButton"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

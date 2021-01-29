@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tweeter</string>
+
+    <string name="homePageTitle">Home</string>
+    <string name="userImageContentDescription">The user\'s image</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="loadingData">Loading More Data…</string>
+    <string name="feedTabTitle">Feed</string>
+    <string name="storyTabTitle">Story</string>
+    <string name="followingTabTitle">Following</string>
+    <string name="followersTabTitle">Followers</string>
+
+    <string name="sampleAlias">"@UserAlias"</string>
+    <string name="sampleUserName">The User</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="followeeCount">Following: -42</string>
+    <string name="followerCount">Followers: -42</string>
+
+    <string name="tweetPrompt">"What's happening?"</string>
+    <string name="tweetButton">"Tweet"</string>
+
+    <string name="menuLogout">"Logout"</string>
+
+    <string name="usernamePrompt">"Username"</string>
+    <string name="passwordPrompt">"Password"</string>
+    <string name="loginButton">"Login"</string>
+    <string name="signUpPrompt">"Don't have an account? Sign Up"</string>
+
+    <string name="firstNamePrompt">"First Name"</string>
+    <string name="lastNamePrompt">"Last Name"</string>
+    <string name="signUpButton">"Sign Up"</string>
+    <string name="signUpUploadPhotoButton">"Upload Profile Pic"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
