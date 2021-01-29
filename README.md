@@ -1,5 +1,6 @@
 # Tweeter
 An android app clone of Twitter with an AWS backend
+
 Technologies used: Android Studio, Java, AWS: lambda, S3, DynamoDB, API Gateway, SQS
  - API Gateway interacted with lambda's to run backend tasks (following users, fetching followers, etc...)
  - DynamoDB had the following tables: users, feed, story, authToken, follows
